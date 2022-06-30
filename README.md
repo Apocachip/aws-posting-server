@@ -1,5 +1,4 @@
-AWS S3에 사진 업로드 하는 프로젝트.
-
+AWS S3에 사진 업로드 하는 프로젝트
 
 <!--
 title: 'Serverless Framework Python Flask API on AWS'
