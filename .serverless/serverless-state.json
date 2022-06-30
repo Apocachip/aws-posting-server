@@ -219,7 +219,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-posting-server/dev/1656552990797-2022-06-30T01:36:30.797Z/aws-posting-server.zip"
+                "S3Key": "serverless/aws-posting-server/dev/1656553871946-2022-06-30T01:51:11.946Z/aws-posting-server.zip"
               },
               "Handler": "s_api.handler",
               "Runtime": "python3.8",
@@ -237,14 +237,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersiondgfZa29TzsUwprbSbEewFJDIdREybGngwFIyijfgGk": {
+          "ApiLambdaVersionRWaJkIankrOIbWWAzVE6o11EzJl2QSLliqPXBVlDM": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "EgtIIZrpbvH08T1esv2/FlaC+L0Su2dtzJ5qz8PUyHU="
+              "CodeSha256": "TvPugAxMAuvY/VZwOd8FQdTISBwGyhVWrlGRRstSp7Y="
             }
           },
           "HttpApi": {
@@ -399,7 +399,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersiondgfZa29TzsUwprbSbEewFJDIdREybGngwFIyijfgGk"
+              "Ref": "ApiLambdaVersionRWaJkIankrOIbWWAzVE6o11EzJl2QSLliqPXBVlDM"
             },
             "Export": {
               "Name": "sls-aws-posting-server-dev-ApiLambdaFunctionQualifiedArn"
@@ -555,7 +555,7 @@
         "timeout": 6,
         "runtime": "python3.8",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersiondgfZa29TzsUwprbSbEewFJDIdREybGngwFIyijfgGk"
+        "versionLogicalId": "ApiLambdaVersionRWaJkIankrOIbWWAzVE6o11EzJl2QSLliqPXBVlDM"
       }
     },
     "configValidationMode": "warn",
@@ -588,7 +588,7 @@
     "artifact": "C:\\Users\\-\\Documents\\GitHub\\aws-posting-server\\.serverless\\aws-posting-server.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-posting-server/dev/1656552990797-2022-06-30T01:36:30.797Z",
+    "artifactDirectoryName": "serverless/aws-posting-server/dev/1656553871946-2022-06-30T01:51:11.946Z",
     "artifact": "aws-posting-server.zip"
   }
 }
