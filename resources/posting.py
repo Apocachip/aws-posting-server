@@ -101,6 +101,7 @@ class PostingResource(Resource) :
                                         'Bucket':Config.S3_BUCKET,        
                                         'Name':new_file_name }} , 
                                         MaxLabels=5 )
+        print(2)
         
         # 4. 레이블의 Name을 가지고, 태그를 만든다!!!!!!!
 
@@ -377,6 +378,7 @@ class PostingInfoResource(Resource) :
                                             'Bucket':Config.S3_BUCKET,        
                                             'Name':new_file_name }} , 
                                             MaxLabels=5 )
+            print(2)
 
             # 기존 태그를 삭제
             # 바뀐 태그 새로 저장
