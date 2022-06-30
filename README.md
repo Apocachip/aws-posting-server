@@ -1,4 +1,5 @@
 AWS S3에 사진 업로드 하는 프로젝트
+Serverless Framework를 사용하여 AWS Lambda에서 Flask API가 실행되게 한다.
 
 <!--
 title: 'Serverless Framework Python Flask API on AWS'
